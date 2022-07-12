@@ -10,9 +10,9 @@ public class Main extends Thread
     }
     
 	public static void main(String[] args) {
-    // 3. Create an obj
+                // 3. Create an obj
 		Main t = new Main();
-    // 4. Start thread using start()
+    		// 4. Start thread using start()
 		t.start();
 	}
 }
