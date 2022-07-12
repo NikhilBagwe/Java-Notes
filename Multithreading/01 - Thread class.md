@@ -9,11 +9,11 @@ public class Main extends Thread
         System.out.println("Thread task");
     }
     
-	public static void main(String[] args) {
-                // 3. Create an obj
-		Main t = new Main();
-    		// 4. Start thread using start()
-		t.start();
-	}
+    public static void main(String[] args) {
+	// 3. Create an obj
+	Main t = new Main();
+	// 4. Start thread using start()
+	t.start();
+    }
 }
 ```
